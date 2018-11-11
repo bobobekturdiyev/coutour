@@ -4,8 +4,8 @@
 		$email = trim($_POST['email']);
 		$phone = trim(htmlspecialchars($_POST['phone']));
 		$message = trim(htmlspecialchars($_POST['message']));
-		$token = "653383597:AAHJMIssiptL3OCNq9deFFJsCqbX_Gh_HUc";
-		$chat_id = "-280145577";
+		$token = "";//TELEGRAM BOT TOKEN
+		$chat_id = ""; //ID
 	    
 	    $arr = array(
         'Ism: ' => $name,
